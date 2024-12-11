@@ -25,14 +25,12 @@ This project demonstrates the implementation of a Language Learning Model (LLM) 
 ### Step 1: Clone the Repository
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd <your-repo-directory>
+git clone <this-repo>
+cd <name-of-the-repo>
 ```
 
 ### Step 2: Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+By excecuting the command line in the code
 
 ### Step 3: Configure Environment Variables
 1. Copy the `.env.test` file:
@@ -43,10 +41,6 @@ pip install -r requirements.txt
    - `HUGGINGFACEHUB_API_TOKEN`: Your Hugging Face API token.
    - Other configurations as needed for your local environment.
 
-### Step 4: Run the Application
-```bash
-python app.py
-```
 
 ## How It Works
 1. **Data Source**: The dataset is scraped from the given GeeksforGeeks article.
